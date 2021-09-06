@@ -1,0 +1,10 @@
+>> n = [30];
+>> d =[1 5 30];
+>> t=0:0.001:15;
+>> r = sin(t) + exp(-0.2*t);
+>> y=lsim(n,d,r,t);
+>> plot(t,y);
+>> grid;
+>> title('plot of the sysytem for arbitrary input r(t)=sint + e-0.2t');
+>> xlabel('Time');
+>> ylabel('Amplitude');

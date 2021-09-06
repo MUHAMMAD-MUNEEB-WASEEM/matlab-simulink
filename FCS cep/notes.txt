@@ -1,0 +1,4 @@
+excel file
+import data
+click on excel data and select import selection
+App - system toolbox, timedomain, x, y, time plot, estimate->transfer function->zeros=0 and poles=2

@@ -1,0 +1,12 @@
+>> %plotting gain and phaseshift versus frequency
+>> f = [50 200 350 500 650];  %f in hz
+>> gain = [1 1 1 0.999 0.999];  %gain = vout/vin
+>> ps = [0.1794 0.7542 1.2636 1.7843 2.3769];  %phaseshift in deg 
+>> plot(f, gain, f, ps)
+>> %labels
+>> xlabel("frequency");
+>> ylabel("Gain and Phase shift");
+>> %title
+>> title("Gain and Phase Shift versus Frequency")
+>> %putting legends
+>> legend("Gain", "Phase Shift")

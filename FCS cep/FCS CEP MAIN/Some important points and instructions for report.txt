@@ -1,0 +1,40 @@
+
+***********OTHER THINGS IN REPORT OTHER THAN TASK OR STARTING*************
+
+1. Hardware heading in starting
+
+I will provide hardware image tomorrow which will be placed under hardware heading
+
+2. Data from Arduino
+
+i. Arduino code should be their to get voltage and speed from Dc motor
+
+ii. One table which consist of three columns. First column is of time in seconds (0-19 seconds like 0, 1,2 etc), second one is of voltage
+    and third one is of speed. All readings are present in excel data file
+
+iii. After this attach voltage and speed response graph. 
+
+
+*********************REGARDING TASKS*****************************
+
+1. DC motor control method:
+
+Method used is armature control method
+
+2. first task is optional so I have not done this. If I will get time then I will do this otherwise not necessary
+
+3. second task from images like transfer function image
+
+4. Third task from images of step, impulse response
+
+5. Fourth task Routh criteria. I will do this on A4 paper and send it and will be attached under Routh criteria heading
+
+6. fifth task. Add rlocus image and pzmap image 
+
+7. sixth task is optional so I have not done this
+
+8. Bode plot is optional but I have done this. Attach Bode plot image
+
+
+Also write Wordings, important points related to each task along with introduction, conclusion etc in which you are already mastered.
+

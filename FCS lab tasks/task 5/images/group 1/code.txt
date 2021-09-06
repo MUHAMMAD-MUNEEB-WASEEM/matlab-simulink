@@ -1,0 +1,13 @@
+>> sys1 = tf([1], [1 10]); %G1
+>> sys2 = tf([1], [1 1]); %G2
+>> sys3 = tf([1 0 1], [1 4 4]); %G3
+>> sys4 = tf([1 1], [1 6]); %G4
+>> sysH1 = tf([1 1], [1 2]); %H1
+>> sysH2 = tf([1], [1]); %H2
+>> sysG2G4 = series(sys2, sys4); % G2 G4 series
+>> sysG2G4PG3 = parallel(sysG2G4, sys3); %G2 G4 parallel with G3
+>> sysG1H1 = feedback(sys1, sysH1); %G1 H1 feedback
+>> sysSeries = series(sysG1H1, sysG2G4PG3); %series
+>> sys = feedback(sysSeries, sysH2); %final response
+>> pzmap(sys); % pole-zero map
+>> 

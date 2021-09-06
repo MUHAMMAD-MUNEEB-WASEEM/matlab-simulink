@@ -1,0 +1,10 @@
+function dXdt = electrical_system(~,X)
+R1 = 10;
+L1 = 1;
+R2 = 10;
+L2 = 1;
+C = 5;
+e = 50;
+dXdt(1,1) = (e/L1) - (R1/L1)*X(1)-(X(3)/L1);
+dXdt(2,1) = (X(3)/L2) - (R2/L2)*X(2);
+dXdt(3,1) = (X(1)/C) - (X(2)/C);

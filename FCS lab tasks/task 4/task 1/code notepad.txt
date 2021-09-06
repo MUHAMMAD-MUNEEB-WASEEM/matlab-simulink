@@ -1,0 +1,17 @@
+>> n=[0 0 30];
+>> d=[1 5 30];
+>> n1=[0 0 0 30];
+>> d1=[1 5 30 0];
+>> % the ramp response can be obtained by using step command for transfer function divided by s
+>> [y,x,t]=step(n1,d1);
+>> v=[0 10 0 10];
+>> plot(t,y);
+>> axis(v);
+>> hold on;
+>> plot(t,t);
+>> grid;
+>> title('Plot of unit ramp response of G(s)=[30]/[s^2+5s+30]');
+>> xlabel('Time');
+>> ylabel('Amplitude');
+>> grid;
+>> 
