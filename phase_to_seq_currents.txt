@@ -1,0 +1,12 @@
+mat1 = [3*exp(degtorad(0)*i); 110*exp(deg2rad(3)*i); 0*exp(deg2rad(0)*i)];
+>> a = 1*exp(deg2rad(120)*i);
+>> mat3 = [1 1 1; 1 a a*a; 1 a*a a];
+>> res_mat = mat3*mat1;
+>> rsult = res_mat/3;
+>> rsult
+
+rsult =
+
+  37.6164 + 1.9190i
+ -18.9701 +30.7513i
+ -15.6463 -32.6702i
